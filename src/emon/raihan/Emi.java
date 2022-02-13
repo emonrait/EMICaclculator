@@ -59,13 +59,13 @@ public class Emi {
         System.out.println(" Principal-> " + P);
         System.out.println(" Rate of Interest-> " + r);
         System.out.println(" Number of Months-> " + n);
-        
+
         System.out.println(" EMI -> " + Math.round(e));
         System.out.println(" Total Interest -> " + totalInt);
         System.out.println(" Total Amount -> " + totalAmt);
-        
+
         System.out.println("***************************");
-        /*double intPerMonth = Math.round(totalInt / n);
+        double intPerMonth = Math.round(totalInt / n);
 
         for (double i = 1; i <= n; i++) {
             intPerMonth = (P * R);
@@ -77,7 +77,7 @@ public class Emi {
                     + Math.round((e) - intPerMonth));
             System.out.println(" Balance Principal -> " + Math.round(P));
             System.out.println("***************************");
-        }*/
+        }
     }
 
 }
